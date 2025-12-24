@@ -24,6 +24,7 @@ mysubmit.onclick = function(){
         paymentresult.textContent = `you are paying with Upi`;
     }
     else{
-        paymentresult.textContent = `you haven't selected a payment result,are you broke ?????`
+        paymentresult.textContent = `please select a payment method`
     }
+
 }
